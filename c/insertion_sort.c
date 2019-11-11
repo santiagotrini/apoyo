@@ -14,6 +14,7 @@ void sort(int arr[], int n) {
   }
 }
 
+// funcion auxiliar para intercambiar dos valores de un array
 void swap(int arr[], i, j) {
   int temp = arr[i];
   arr[i] = arr[j];
