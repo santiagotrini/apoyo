@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    include head.pug
+  body
+    if (nombre == 'Abella')
+      h1 Hola, #{nombre}
+      p kjaskdjaksjdksajdk
+    
+    ul    
+      each numero in numeros
+        li= numero    
+    
+        
+    p soy un parrafo
+    h2= nombre
+    a(href='https://www.google.com' target='_blank') Link a Google
+    
