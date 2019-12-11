@@ -67,3 +67,13 @@ let cadena = 1 + "\n \t \b" + 2;
 
 console.log(cadena);
 console.log(typeof cadena);
+
+let lista2 = [3, 3, 6,4];
+
+lista2[1000] = 'kjaskdjk';
+for (let elemento of lista2) {
+  console.log(`Elemento: ${elemento}`);
+}
+lista2.push('hola');
+lista2.push('344');
+console.log(lista2.pop());
